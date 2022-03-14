@@ -1,0 +1,4 @@
+#ifndef LEARNCPP_HEADER__H
+#define LEARNCPP_HEADER__H
+
+#endif //LEARNCPP_HEADER__H

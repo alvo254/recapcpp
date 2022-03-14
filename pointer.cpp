@@ -12,4 +12,5 @@ void point(){
     cout <<&age<<endl;    // This shows memory address of age
     cout <<name<<endl;
     cout <<*page<<endl;     //dereference
+    cout <<"-------------------------pointer----------------------------"<<endl;
 }

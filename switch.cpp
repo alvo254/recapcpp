@@ -22,5 +22,5 @@ string getDay(int dayNum){
         default:
             dayName = "Invalid number";
     }
-    cout <<getDay(0)<<endl;
+    cout <<getDay(2)<<endl;
 }

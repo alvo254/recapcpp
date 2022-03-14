@@ -6,7 +6,7 @@ public:
     string director;
     string title;
     Movie(string aDirector, string aTitle, string aRating){
-        director = aDirector;
+        director = aDirector;    //You can use this keyword instead of aDirector -- this->director = director
         title = aTitle;
         setRating(aRating);
     }

@@ -7,6 +7,8 @@ public:
     int pages;
     Book(){                  //This is a constructor  they can have parameters
         cout<<"Creating object"<<endl;
+        //this->title = title;
+        //this->author = author;
     }
 };
 
@@ -24,6 +26,7 @@ public:
  void classy(){
     std::cout<<"--------------------classes ------------------------------"<<endl;
     Book book1;
+    //Book book1("gatsby", "Road");        //Used with this keyword
     book1.author = "A.N Khamron";
     book1.title = "Learning c++";
     book1.pages = 1200;
