@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named learncpp2
+
+# Build rule for target.
+learncpp2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learncpp2
+.PHONY : learncpp2
+
+# fast build rule for target.
+learncpp2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncpp2.dir/build.make CMakeFiles/learncpp2.dir/build
+.PHONY : learncpp2/fast
+
+#=============================================================================
 # Target rules for targets named learncpp
 
 # Build rule for target.
@@ -169,6 +182,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncpp.dir/build.make CMakeFiles/learncpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+stl/master.o: stl/master.cpp.o
+
+.PHONY : stl/master.o
+
+# target to build an object file
+stl/master.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncpp2.dir/build.make CMakeFiles/learncpp2.dir/stl/master.cpp.o
+.PHONY : stl/master.cpp.o
+
+stl/master.i: stl/master.cpp.i
+
+.PHONY : stl/master.i
+
+# target to preprocess a source file
+stl/master.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncpp2.dir/build.make CMakeFiles/learncpp2.dir/stl/master.cpp.i
+.PHONY : stl/master.cpp.i
+
+stl/master.s: stl/master.cpp.s
+
+.PHONY : stl/master.s
+
+# target to generate assembly for a file
+stl/master.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncpp2.dir/build.make CMakeFiles/learncpp2.dir/stl/master.cpp.s
+.PHONY : stl/master.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -178,9 +218,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... learncpp"
+	@echo "... learncpp2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... stl/master.o"
+	@echo "... stl/master.i"
+	@echo "... stl/master.s"
 .PHONY : help
 
 

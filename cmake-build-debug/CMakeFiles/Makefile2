@@ -72,6 +72,7 @@ CMAKE_BINARY_DIR = /home/alvo/CLionProjects/learncpp/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/learncpp2.dir/all
 all: CMakeFiles/learncpp.dir/all
 
 .PHONY : all
@@ -82,9 +83,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/learncpp2.dir/clean
 clean: CMakeFiles/learncpp.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/learncpp2.dir
+
+# All Build rule for target.
+CMakeFiles/learncpp2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncpp2.dir/build.make CMakeFiles/learncpp2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncpp2.dir/build.make CMakeFiles/learncpp2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alvo/CLionProjects/learncpp/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target learncpp2"
+.PHONY : CMakeFiles/learncpp2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/learncpp2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alvo/CLionProjects/learncpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/learncpp2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alvo/CLionProjects/learncpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/learncpp2.dir/rule
+
+# Convenience name for target.
+learncpp2: CMakeFiles/learncpp2.dir/rule
+
+.PHONY : learncpp2
+
+# clean rule for target.
+CMakeFiles/learncpp2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncpp2.dir/build.make CMakeFiles/learncpp2.dir/clean
+.PHONY : CMakeFiles/learncpp2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/learncpp.dir

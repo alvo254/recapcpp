@@ -1,3 +1,4 @@
 /home/alvo/CLionProjects/learncpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/alvo/CLionProjects/learncpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alvo/CLionProjects/learncpp/cmake-build-debug/CMakeFiles/learncpp2.dir
 /home/alvo/CLionProjects/learncpp/cmake-build-debug/CMakeFiles/learncpp.dir

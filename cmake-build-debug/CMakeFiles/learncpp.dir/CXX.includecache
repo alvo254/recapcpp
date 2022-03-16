@@ -6,37 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/alvo/CLionProjects/learncpp/classes.cpp
-iostream
--
-
-/home/alvo/CLionProjects/learncpp/getterandsetter.cpp
-iostream
--
-
-/home/alvo/CLionProjects/learncpp/inheritance.cpp
-iostream
--
-
-/home/alvo/CLionProjects/learncpp/main.cpp
-iostream
--
-inheritance.cpp
-/home/alvo/CLionProjects/learncpp/inheritance.cpp
-switch.cpp
-/home/alvo/CLionProjects/learncpp/switch.cpp
-pointer.cpp
-/home/alvo/CLionProjects/learncpp/pointer.cpp
-classes.cpp
-/home/alvo/CLionProjects/learncpp/classes.cpp
-getterandsetter.cpp
-/home/alvo/CLionProjects/learncpp/getterandsetter.cpp
-
-/home/alvo/CLionProjects/learncpp/pointer.cpp
-iostream
--
-
-/home/alvo/CLionProjects/learncpp/switch.cpp
-iostream
--
-

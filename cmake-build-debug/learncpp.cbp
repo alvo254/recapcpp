@@ -37,6 +37,50 @@
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alvo/CLionProjects/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="learncpp2">
+				<Option output="/home/alvo/CLionProjects/learncpp/cmake-build-debug/learncpp2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alvo/CLionProjects/learncpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/alvo/CLionProjects/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 learncpp2"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/alvo/CLionProjects/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/alvo/CLionProjects/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alvo/CLionProjects/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="learncpp2/fast">
+				<Option output="/home/alvo/CLionProjects/learncpp/cmake-build-debug/learncpp2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alvo/CLionProjects/learncpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/alvo/CLionProjects/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 learncpp2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/alvo/CLionProjects/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/alvo/CLionProjects/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alvo/CLionProjects/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="learncpp">
 				<Option output="/home/alvo/CLionProjects/learncpp/cmake-build-debug/learncpp" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/alvo/CLionProjects/learncpp/cmake-build-debug"/>
@@ -87,6 +131,9 @@
 		</Unit>
 		<Unit filename="/home/alvo/CLionProjects/learncpp/main.cpp">
 			<Option target="learncpp"/>
+		</Unit>
+		<Unit filename="/home/alvo/CLionProjects/learncpp/stl/master.cpp">
+			<Option target="learncpp2"/>
 		</Unit>
 		<Unit filename="/home/alvo/CLionProjects/learncpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
